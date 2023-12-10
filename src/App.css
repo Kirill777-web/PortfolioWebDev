@@ -1,0 +1,7 @@
+.app-container {
+  min-height: 100vh;
+  overflow: hidden;
+}
+.section {
+  flex: 1;
+}
