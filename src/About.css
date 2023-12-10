@@ -1,0 +1,40 @@
+/*
+=============== 
+About
+===============
+*/
+/* section title added to globals */
+.section {
+  height: 72vh;
+  overflow: hidden;
+}
+.about-title {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.about-title .underline {
+  margin-left: 20;
+}
+.about-center {
+  height: 100vh;
+  display: grid;
+  gap: 3rem 2rem;
+}
+.about-img {
+  justify-self: center;
+}
+@media screen and (min-width: 992px) {
+  .about-center {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-img {
+    position: relative;
+  }
+  .about-img::before {
+    left: -2rem;
+  }
+  .about-info {
+    align-self: center;
+    padding-bottom: 200px;
+  }
+}
