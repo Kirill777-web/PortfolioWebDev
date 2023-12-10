@@ -12,19 +12,29 @@ function Sidebar({ isOpen, onClose }) {
           </button>
           <ul className='sidebar-links'>
             <li>
-              <Link to='/'>Home</Link>
+              <Link to='/' onClick={onClose}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to='/about'>About Me</Link>
+              <Link to='/about' onClick={onClose}>
+                About Me
+              </Link>
             </li>
             <li>
-              <Link to='/projects'>Projects</Link>
+              <Link to='/projects' onClick={onClose}>
+                Projects
+              </Link>
             </li>
             <li>
-              <Link to='/contact'>Contact</Link>
+              <Link to='/contact' onClick={onClose}>
+                Contact
+              </Link>
             </li>
             <li>
-              <Link to='/resume'>Resume</Link>
+              <Link to='/resume' onClick={onClose}>
+                Resume
+              </Link>
             </li>
           </ul>
           <SocialLinks />
