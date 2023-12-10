@@ -7,6 +7,7 @@ Projects
   height: 100vh;
   overflow: hidden;
 }
+
 .projects-text {
   width: 85vw;
   max-width: 30rem;
@@ -87,23 +88,29 @@ Projects
   color: grey;
 }
 
+/* Responsive Design for Medium and Large Screens */
 @media screen and (max-width: 992px) {
   .projects-center {
-    grid-template-columns: repeat(2, 1fr); /
+    grid-template-columns: repeat(2, 1fr);
   }
-
 }
+
+/* Responsive Design for Tablet Screens */
 @media screen and (min-width: 676px) and (max-width: 768px) {
-  .timeline-line {
-    display: none;
+  .projects-center {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
   }
 }
 
+/* Responsive Design for Mobile Devices */
 @media screen and (max-width: 676px) {
   .projects-center {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    height: 100%;
   }
-  .timeline-line {
-    display: none;
+  .project-img {
+    height: 12rem;
   }
 }
