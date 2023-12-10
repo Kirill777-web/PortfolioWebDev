@@ -1,0 +1,59 @@
+/*
+=============== 
+Services
+===============
+*/
+/* small screen layout setup */
+
+.service {
+  background: var(--clr-white);
+  padding: 3rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: var(--radius);
+  text-align: center;
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+}
+
+.service:hover {
+  box-shadow: var(--dark-shadow);
+  background-color: var(--clr-primary-5);
+  color: var(--clr-white);
+  transform: scale(1.02);
+}
+.service-icon {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.service .underline {
+  width: 3rem;
+  height: 0.12rem;
+  transform: var(--transition);
+}
+
+.service p {
+  transition: var(--transition);
+}
+
+.service:hover p {
+  color: var(--clr-white);
+}
+
+.service:hover .underline {
+  background: var(--clr-white);
+  width: 5rem;
+}
+
+@media screen and (min-width: 676px) {
+  .services-center {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .services-center {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

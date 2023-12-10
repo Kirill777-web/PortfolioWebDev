@@ -1,0 +1,95 @@
+/* Contact Section Styles */
+.contact {
+  padding: 5rem 0;
+  background: var(--clr-grey-10);
+}
+
+.contact-center {
+  width: 90vw;
+  max-width: 600px;
+  margin: 0 auto;
+  background: var(--clr-white);
+  padding: 2rem;
+  box-shadow: var(--light-shadow);
+  border-radius: var(--radius);
+}
+
+.contact-form {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid var(--clr-primary-5);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-control[type='text'],
+.form-control[type='email'] {
+  height: 50px;
+}
+
+textarea.form-control {
+  height: 150px;
+}
+
+.form-control:focus {
+  border-color: var(--clr-primary-7);
+  outline: none;
+}
+
+.form-control::placeholder {
+  color: var(--clr-grey-4);
+}
+
+.btn {
+  width: 20%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  background: var(--clr-primary-5);
+  color: var(--clr-white);
+  border: none;
+  cursor: pointer;
+  border-radius: var(--radius);
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background: var(--clr-primary-7);
+}
+
+/* Labels for extra style (optional) */
+.label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* Adding some animation to the underline */
+.underline {
+  height: 4px;
+  width: 100px;
+  background: var(--clr-primary-5);
+  margin: 0 auto;
+  transition: width 0.3s;
+}
+
+.underline:hover {
+  width: 120px;
+}
+
+.error-message {
+  color: red;
+}
