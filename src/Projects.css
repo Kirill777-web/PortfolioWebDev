@@ -3,6 +3,9 @@
 Projects
 ===============
 */
+.section-projects {
+  height: 90vh;
+}
 
 .projects-text {
   width: 85vw;
