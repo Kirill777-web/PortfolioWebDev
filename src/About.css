@@ -3,26 +3,46 @@
 About
 ===============
 */
-/* section title added to globals */
 .section {
   height: 72vh;
   overflow: hidden;
 }
+
 .about-title {
   text-align: left;
   margin-bottom: 2rem;
 }
+
 .about-title .underline {
-  margin-left: 20;
+  margin-left: 20px; /* Ensure units are specified */
 }
+
 .about-center {
   height: 100vh;
   display: grid;
   gap: 3rem 2rem;
 }
+
 .about-img {
   justify-self: center;
 }
+
+/* For medium screens like tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .about-center {
+    grid-template-columns: 1fr; /* Stack the image and info vertically */
+    gap: 2rem;
+  }
+  .about-info {
+    align-self: start;
+    padding-bottom: 100px; /* Adjust padding as needed */
+  }
+  .about-img::before {
+    left: 0; /* Adjust or remove before pseudo-element */
+  }
+}
+
+/* For larger screens like desktops */
 @media screen and (min-width: 992px) {
   .about-center {
     grid-template-columns: 1fr 1fr;
@@ -36,5 +56,28 @@ About
   .about-info {
     align-self: center;
     padding-bottom: 200px;
+  }
+}
+
+/* For smaller screens like mobile devices */
+@media screen and (max-width: 767px) {
+  .about-center {
+    grid-template-columns: 1fr;
+    text-align: center; /* Center align text for better readability */
+  }
+  .about-title {
+    text-align: center; /* Center align the title */
+  }
+  .about-title .underline {
+    margin-left: auto; /* Center align the underline */
+    margin-right: auto;
+  }
+  .about-img {
+    max-width: 80%; /* Adjust image size for smaller screens */
+    margin: 0 auto; /* Center align the image */
+  }
+  .about-info {
+    align-self: start;
+    padding-bottom: 380px; /* Adjust padding for smaller screens */
   }
 }

@@ -1,4 +1,5 @@
 import SocialLinks from './SocialLinks';
+import { Link } from 'react-router-dom';
 import './Sidebar.css';
 // Importing the CSS file
 function Sidebar({ isOpen, onClose }) {
@@ -11,19 +12,19 @@ function Sidebar({ isOpen, onClose }) {
           </button>
           <ul className='sidebar-links'>
             <li>
-              <a href='index.html'>home</a>
+              <Link to='/'>Home</Link>
             </li>
             <li>
-              <a href='index.html'>about me</a>
+              <Link to='/about'>About Me</Link>
             </li>
             <li>
-              <a href='index.html'>projects</a>
+              <Link to='/projects'>Projects</Link>
             </li>
             <li>
-              <a href='index.html'>contacts</a>
+              <Link to='/contact'>Contact</Link>
             </li>
             <li>
-              <a href='resume.html'>resume</a>
+              <Link to='/resume'>Resume</Link>
             </li>
           </ul>
           <SocialLinks />
