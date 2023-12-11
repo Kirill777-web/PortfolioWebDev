@@ -27,6 +27,13 @@ About
   justify-self: center;
 }
 
+@media screen and (min-width: 400px) and (max-width: 676px) {
+  .section {
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
 /* For medium screens like tablets */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .about-center {

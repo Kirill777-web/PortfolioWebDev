@@ -7,7 +7,6 @@ Services
   height: 100vh;
 }
 
-/* Adjustments for the Services Section */
 .services-center {
   display: grid;
   grid-template-columns: 1fr;
@@ -42,21 +41,40 @@ Services
   transform: scale(1.02);
 }
 
+/* Responsive Design for Mobile Devices (400px to 676px) */
+@media screen and (min-width: 400px) and (max-width: 676px) {
+  .bg-grey {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .services-center {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .service {
+    padding: 2rem 1rem;
+  }
+
+  .service-icon {
+    /* Adjust icon size if needed */
+    font-size: 1.5rem;
+  }
+}
+
 /* Responsive Design for Tablets */
 @media screen and (min-width: 676px) {
   .services-center {
     grid-template-columns: repeat(2, 1fr); /* Two columns layout */
     gap: 4rem; /* Increased gap */
   }
-  .bg-grey {
-    height: 71.5vh;
-  }
 }
 
 /* Responsive Design for Laptops/Desktops */
 @media screen and (min-width: 992px) {
   .services-center {
-    grid-template-columns: repeat(2, 1fr); /* Adjust as needed */
-    padding: 0 4rem; /* More padding for wider screens */
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 4rem;
   }
 }
