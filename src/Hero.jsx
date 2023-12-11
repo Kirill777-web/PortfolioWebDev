@@ -8,7 +8,7 @@ function Hero() {
         <div className='section-center hero-center'>
           <article className='hero-img'>
             <img
-              src='/public/imgs/me.jpg'
+              src='/imgs/me.jpg'
               className='hero-photo'
               alt='kirill lazutin'
             />
