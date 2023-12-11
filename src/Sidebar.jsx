@@ -22,8 +22,13 @@ function Sidebar({ isOpen, onClose }) {
               </Link>
             </li>
             <li>
-              <Link to='/projects' onClick={onClose}>
-                Projects
+              <Link to='/services' onClick={onClose}>
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link to='/portfolio' onClick={onClose}>
+                Portfolio
               </Link>
             </li>
             <li>

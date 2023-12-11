@@ -3,7 +3,18 @@
 Services
 ===============
 */
-/* small screen layout setup */
+.section bg-grey {
+  padding: 4rem 0;
+  background: var(--clr-grey-10);
+}
+
+/* Adjustments for the Services Section */
+.services-center {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 0 2rem;
+}
 
 .service {
   background: var(--clr-white);
@@ -15,45 +26,35 @@ Services
   transition: var(--transition);
 }
 
+.service-icon {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.service .underline {
+  width: 3rem;
+  height: 0.12rem;
+}
+
 .service:hover {
   box-shadow: var(--dark-shadow);
   background-color: var(--clr-primary-5);
   color: var(--clr-white);
   transform: scale(1.02);
 }
-.service-icon {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-}
-.service .underline {
-  width: 3rem;
-  height: 0.12rem;
-  transform: var(--transition);
-}
 
-.service p {
-  transition: var(--transition);
-}
-
-.service:hover p {
-  color: var(--clr-white);
-}
-
-.service:hover .underline {
-  background: var(--clr-white);
-  width: 5rem;
-}
-
+/* Responsive Design for Tablets */
 @media screen and (min-width: 676px) {
   .services-center {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 4rem;
+    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+    gap: 4rem; /* Increased gap */
   }
 }
 
+/* Responsive Design for Laptops/Desktops */
 @media screen and (min-width: 992px) {
   .services-center {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* Adjust as needed */
+    padding: 0 4rem; /* More padding for wider screens */
   }
 }

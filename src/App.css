@@ -1,6 +1,9 @@
 .app-container {
-  min-height: 100vh;
-  overflow: hidden;
+  min-height: 120vh; /* Minimum height of the viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 4rem;
 }
 .section {
   flex: 1;

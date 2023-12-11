@@ -129,10 +129,6 @@ p {
   color: var(--clr-primary-1);
   background: var(--clr-primary-7);
 }
-/* section */
-.section {
-  padding: 5rem 0;
-}
 
 .section-center {
   width: 90vw;
@@ -159,4 +155,5 @@ p {
 }
 .bg-grey {
   background: var(--clr-grey-10);
+  height: 100vh;
 }
