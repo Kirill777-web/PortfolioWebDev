@@ -43,7 +43,7 @@ Services
 }
 
 /* Responsive Design for Mobile Devices (400px to 676px) */
-@media screen and (min-width: 376px) and (max-width: 676px) {
+@media screen and (min-width: 360px) and (max-width: 676px) {
   .bg-grey {
     height: auto;
     padding-bottom: 2rem;

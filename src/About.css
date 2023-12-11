@@ -28,7 +28,7 @@ About
   justify-self: center;
 }
 
-@media screen and (min-width: 365px) and (max-width: 676px) {
+@media screen and (min-width: 360px) and (max-width: 676px) {
   .section {
     height: 120vh;
     overflow: hidden;
