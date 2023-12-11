@@ -6,11 +6,7 @@ function About() {
       <section className='section about'>
         <div className='section-center about-center'>
           <article className='about-img'>
-            <img
-              src='/public/imgs/KL.jpg'
-              className='hero-photo'
-              alt='about img'
-            />
+            <img src='/imgs/KL.jpg' className='hero-photo' alt='about img' />
           </article>
 
           <article className='about-info'>

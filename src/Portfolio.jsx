@@ -6,37 +6,37 @@ function Portfolio() {
   const projectData = [
     {
       title: 'Weather-WhisperApp',
-      imageUrl: '/public/imgs/Project1WheatherApp.png',
+      imageUrl: '/imgs/Project1WheatherApp.png',
       projectUrl: 'https://kirill777-web.github.io/Weather-Whisper/',
       repoUrl: 'https://github.com/Kirill777-web/Weather-Whisper',
     },
     {
       title: 'Pawfect-match',
-      imageUrl: '/public/imgs/PawfectmatchProject2.png',
+      imageUrl: '/imgs/PawfectmatchProject2.png',
       projectUrl: 'https://github.com/Kirill777-web/Pawfect-Match',
       repoUrl: 'https://github.com/Kirill777-web/Pawfect-Match',
     },
     {
       title: 'Thought-Thrive',
-      imageUrl: '/public/imgs/Thought-ThriveProject3.png',
+      imageUrl: '/imgs/Thought-ThriveProject3.png',
       projectUrl: 'https://github.com/Kirill777-web/Thought-Thrive/',
       repoUrl: 'https://github.com/Kirill777-web/Thought-Thrive/',
     },
     {
       title: 'NoteMe',
-      imageUrl: '/public/imgs/NoteMeProject4.png',
+      imageUrl: '/imgs/NoteMeProject4.png',
       projectUrl: 'https://github.com/Kirill777-web/Note-Me',
       repoUrl: 'https://github.com/Kirill777-web/Note-Me',
     },
     {
       title: 'Snippet-Spark',
-      imageUrl: '/public/imgs/SnipetSparkProject5.png',
+      imageUrl: '/imgs/SnipetSparkProject5.png',
       projectUrl: 'https://kirill777-web.github.io/Snippet-Spark/',
       repoUrl: 'https://github.com/Kirill777-web/Snippet-Spark',
     },
     {
       title: 'Contact App',
-      imageUrl: '/public/imgs/ContactAppProject6.png',
+      imageUrl: '/imgs/ContactAppProject6.png',
       projectUrl:
         'https://drive.google.com/file/d/1SLS5l3uUOhrukQ_2NvGL4oSwtEaxiO_s/view',
       repoUrl: 'https://github.com/Kirill777-web/contactApp',
