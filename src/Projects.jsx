@@ -29,10 +29,10 @@ function Projects() {
       repoUrl: 'https://github.com/Kirill777-web/Note-Me',
     },
     {
-      title: 'Weather-WhisperApp',
-      imageUrl: '/public/imgs/Project1WheatherApp.png',
-      projectUrl: 'https://github.com/Kirill777-web/Snippet-Spark',
-      repoUrl: 'https://kirill777-web.github.io/Snippet-Spark/',
+      title: 'Snippet-Spark',
+      imageUrl: '/public/imgs/SnipetSparkProject5.png',
+      projectUrl: 'https://kirill777-web.github.io/Snippet-Spark/',
+      repoUrl: 'https://github.com/Kirill777-web/Snippet-Spark',
     },
     {
       title: 'Weather-WhisperApp',
