@@ -155,5 +155,5 @@ p {
 }
 .bg-grey {
   background: var(--clr-grey-10);
-  height: 100vh;
+  /* height: 100vh; */
 }

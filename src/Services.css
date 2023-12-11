@@ -3,9 +3,8 @@
 Services
 ===============
 */
-.section bg-grey {
-  padding: 4rem 0;
-  background: var(--clr-grey-10);
+.bg-grey {
+  height: 100vh;
 }
 
 /* Adjustments for the Services Section */
@@ -48,6 +47,9 @@ Services
   .services-center {
     grid-template-columns: repeat(2, 1fr); /* Two columns layout */
     gap: 4rem; /* Increased gap */
+  }
+  .bg-grey {
+    height: 71.5vh;
   }
 }
 
