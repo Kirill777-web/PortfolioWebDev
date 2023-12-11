@@ -4,6 +4,7 @@ About
 ===============
 */
 .section {
+  padding-top: 50px;
   height: 72vh;
   overflow: hidden;
 }
