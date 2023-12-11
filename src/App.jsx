@@ -4,7 +4,7 @@ import Sidebar from './Sidebar';
 import Hero from './Hero';
 import About from './About';
 import Services from './Services';
-import Projects from './Projects';
+import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Achievements from './Achievements';
 import Resume from './Resume';
@@ -20,7 +20,7 @@ function App() {
           <Route path='/' element={<Hero />} />
           <Route path='/about' element={<About />} />
           <Route path='/services' element={<Services />} />
-          <Route path='/projects' element={<Projects />} />
+          <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/achievements' element={<Achievements />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/resume' element={<Resume />} />

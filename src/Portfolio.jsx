@@ -1,7 +1,7 @@
 import Project from './Project';
 import './Projects.css';
 
-function Projects() {
+function Portfolio() {
   // Array of project objects
   const projectData = [
     {
@@ -35,10 +35,11 @@ function Projects() {
       repoUrl: 'https://github.com/Kirill777-web/Snippet-Spark',
     },
     {
-      title: 'Weather-WhisperApp',
-      imageUrl: '/public/imgs/Project1WheatherApp.png',
-      projectUrl: 'https://kirill777-web.github.io/Weather-Whisper/',
-      repoUrl: 'https://github.com/Kirill777-web/Weather-Whisper',
+      title: 'Contact App',
+      imageUrl: '/public/imgs/ContactAppProject6.png',
+      projectUrl:
+        'https://drive.google.com/file/d/1SLS5l3uUOhrukQ_2NvGL4oSwtEaxiO_s/view',
+      repoUrl: 'https://github.com/Kirill777-web/contactApp',
     },
     // ... other project objects
   ];
@@ -47,7 +48,7 @@ function Projects() {
     <div>
       <section className='section-projects'>
         <div className='section-title'>
-          <h2>Projects</h2>
+          <h2>Portfolio</h2>
           <div className='underline'></div>
           <p className='projects-text'>
             In the Projects section of my portfolio, you will find a diverse
@@ -74,4 +75,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Portfolio;
