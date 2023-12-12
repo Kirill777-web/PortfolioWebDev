@@ -46,6 +46,9 @@ function Navbar() {
               <Link to='/about'>About Me</Link>
             </li>
             <li>
+              <Link to='/achievements'>Achievements</Link>
+            </li>
+            <li>
               <Link to='/portfolio'>Portfolio</Link>
             </li>
             <li>

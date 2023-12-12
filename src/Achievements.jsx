@@ -3,7 +3,7 @@ import './Achievements.css';
 function Achievements() {
   return (
     <div>
-      <section className='section achievements'>
+      <section className='section-achievements'>
         <div className='section-title'>
           <h2>achievements</h2>
           <div className='underline'></div>

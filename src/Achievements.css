@@ -77,3 +77,9 @@
     top: -40px;
   }
 }
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .timeline-line {
+    display: none;
+  }
+}
