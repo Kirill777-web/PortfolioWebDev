@@ -138,16 +138,6 @@ p {
   text-align: center;
 }
 
-@media screen and (min-width: 360px) and (max-width: 676px) {
-  .bg-grey {
-    height: 100%;
-    padding-bottom: 2rem;
-  }
-  .btn {
-    margin-top: 30px;
-    width: 60%;
-  }
-}
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
@@ -156,5 +146,15 @@ p {
   .bg-grey {
     background: var(--clr-primary-10);
     height: 70vh;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 676px) {
+  .bg-grey {
+    height: 100%;
+    padding-bottom: 2rem;
+  }
+  .btn {
+    margin-top: 30px;
+    width: 77%;
   }
 }

@@ -55,9 +55,6 @@ Services
     height: auto;
     padding-bottom: 2rem;
   }
-  .bg-grey {
-    height: 78.2vh;
-  }
 
   .services-center {
     grid-template-columns: 1fr;
@@ -73,7 +70,7 @@ Services
     font-size: 1.5rem;
   }
 
-  resume-btn {
+  .btn {
     width: 370px;
   }
 }
@@ -84,6 +81,11 @@ Services
     grid-template-columns: repeat(2, 1fr); /* Two columns layout */
     gap: 4rem; /* Increased gap */
   }
+
+  .bg-grey {
+    height: auto;
+    padding-bottom: 2rem;
+  }
 }
 
 /* Responsive Design for Laptops/Desktops */
@@ -91,5 +93,9 @@ Services
   .services-center {
     grid-template-columns: repeat(2, 1fr);
     padding: 0 4rem;
+  }
+  .bg-grey {
+    height: auto;
+    padding-bottom: 2rem;
   }
 }
