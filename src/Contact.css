@@ -98,4 +98,8 @@ textarea.form-control {
   .contact {
     height: 100vh;
   }
+
+  .btn {
+    font-size: 1rem;
+  }
 }
