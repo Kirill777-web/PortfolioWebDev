@@ -20,7 +20,7 @@ function Hero() {
               something fun together.
             </h4>
             <Link to='/contact' className='btn hero-btn'>
-              hire me
+              contact me
             </Link>
           </article>
         </div>
