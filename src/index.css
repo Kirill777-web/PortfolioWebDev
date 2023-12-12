@@ -138,6 +138,7 @@ p {
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
+    padding-bottom: 50px;
   }
 }
 
@@ -155,5 +156,5 @@ p {
 }
 .bg-grey {
   background: var(--clr-grey-10);
-  /* height: 100vh; */
+  height: 77vh;
 }

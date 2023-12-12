@@ -4,9 +4,11 @@ About
 ===============
 */
 .section {
-  padding-top: 50px;
-  height: 72.4vh;
+  padding-top: 100px;
+  min-height: calc(79vh - var(--footer-height));
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-title {
@@ -19,38 +21,29 @@ About
 }
 
 .about-center {
-  height: 100vh;
+  flex-grow: 1; /* Allow this section to grow to fill space */
   display: grid;
   gap: 3rem 2rem;
+  align-content: start; /* Align content to the start */
 }
 
 .about-img {
   justify-self: center;
+  max-width: 80%; /* Adjust image size */
 }
 
-@media screen and (min-width: 360px) and (max-width: 676px) {
-  .section {
-    height: 120vh;
-    overflow: hidden;
-  }
-}
-
-/* For medium screens like tablets */
+/* Responsive Design for Medium Screens like Tablets */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .about-center {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
   .about-info {
-    align-self: start;
-    padding-bottom: 100px;
-  }
-  .about-img::before {
-    left: 0;
+    padding-bottom: 2rem;
   }
 }
 
-/* For larger screens like desktops */
+/* Responsive Design for Larger Screens like Desktops */
 @media screen and (min-width: 992px) {
   .about-center {
     grid-template-columns: 1fr 1fr;
@@ -63,11 +56,10 @@ About
   }
   .about-info {
     align-self: center;
-    padding-bottom: 200px;
   }
 }
 
-/* For smaller screens like mobile devices */
+/* Responsive Design for Smaller Screens like Mobile Devices */
 @media screen and (max-width: 767px) {
   .about-center {
     grid-template-columns: 1fr;
@@ -80,12 +72,19 @@ About
     margin-left: auto;
     margin-right: auto;
   }
-  .about-img {
-    max-width: 80%;
-    margin: 0 auto;
-  }
   .about-info {
-    align-self: start;
-    padding-bottom: 380px;
+    padding-bottom: 2rem;
+  }
+}
+
+/* Variable for footer height - adjust as per your footer's actual height */
+:root {
+  --footer-height: 20px; /* Example height, adjust as needed */
+}
+
+@media screen and (min-width: 360px) and (max-width: 676px) {
+  .section {
+    height: 120vh;
+    overflow: hidden;
   }
 }

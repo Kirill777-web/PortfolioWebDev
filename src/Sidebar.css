@@ -12,12 +12,9 @@ Sidebar
   background: var(--clr-grey-10);
   z-index: 4;
   display: grid;
-  /* align-items: center;
-  justify-content: center; */
   place-items: center;
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  /* add later */
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
 }

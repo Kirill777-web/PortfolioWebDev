@@ -1,9 +1,9 @@
 /* Hero Section Modern Style */
 .hero {
-  /* padding: 4rem 0; */
   background-color: #f4f4f4;
   text-align: center;
-  height: 72.3vh;
+  height: auto;
+  overflow: hidden;
 }
 
 .hero-center {
@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  min-height: 77vh;
 }
 
 .hero-info {
