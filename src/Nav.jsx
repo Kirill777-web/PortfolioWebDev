@@ -38,13 +38,12 @@ function Navbar() {
 
           <ul className='nav-links'>
             <li>
-              <Link to='/'>Home</Link>
+              <Link to='/' activeClassName='active-link'>
+                Home
+              </Link>
             </li>
             <li>
               <Link to='/about'>About Me</Link>
-            </li>
-            <li>
-              <Link to='/services'>Services</Link>
             </li>
             <li>
               <Link to='/portfolio'>Portfolio</Link>

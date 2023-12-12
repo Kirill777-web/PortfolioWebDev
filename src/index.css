@@ -119,10 +119,23 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
+.bg-grey {
+  background: var(--clr-primary-10);
+}
+@media screen and (min-width: 360px) and (max-width: 676px) {
+  .bg-grey {
+    height: 100%;
+    padding-bottom: 2rem;
+  }
+}
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
     padding-bottom: 50px;
+  }
+  .bg-grey {
+    background: var(--clr-primary-10);
+    height: 70vh;
   }
 }
 
@@ -138,8 +151,4 @@ p {
   padding-top: 40px;
   margin-bottom: 3rem;
   text-align: center;
-}
-.bg-grey {
-  background: var(--clr-grey-10);
-  height: 70vh;
 }

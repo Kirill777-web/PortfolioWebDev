@@ -29,6 +29,12 @@
   cursor: pointer;
   justify-self: end;
 }
+/* active link */
+.active-link {
+  color: hsl(0deg 100% 50%); /* Or any color you want for the active link */
+  box-shadow: 0 2px hsl(0deg 100% 50%); /* Optional: if you want to highlight with a shadow */
+}
+
 @media screen and (min-width: 768px) {
   .nav {
     border-bottom: 1px solid grey;
@@ -39,7 +45,7 @@
   }
   .nav-links {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-items: center;
     -webkit-column-gap: 2rem;
     -moz-column-gap: 2rem;
