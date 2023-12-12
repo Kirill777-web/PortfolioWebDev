@@ -72,6 +72,10 @@ Services
     /* Adjust icon size if needed */
     font-size: 1.5rem;
   }
+
+  resume-btn {
+    width: 330px;
+  }
 }
 
 /* Responsive Design for Tablets */
