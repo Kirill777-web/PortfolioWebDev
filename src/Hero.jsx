@@ -1,5 +1,5 @@
 import './Hero.css';
-// import SocialLinks from './SocialLinks';
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -19,9 +19,9 @@ function Hero() {
               Web Developer &amp; Certified AWS Practitioner - Let&apos;s build
               something fun together.
             </h4>
-            <a href='contact.html' className='btn hero-btn'>
+            <Link to='/contact' className='btn hero-btn'>
               hire me
-            </a>
+            </Link>
           </article>
         </div>
       </header>
