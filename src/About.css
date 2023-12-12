@@ -5,7 +5,7 @@ About
 */
 .section {
   padding-top: 100px;
-  min-height: calc(79vh - var(--footer-height));
+  min-height: calc(74vh - var(--footer-height));
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -21,15 +21,15 @@ About
 }
 
 .about-center {
-  flex-grow: 1; /* Allow this section to grow to fill space */
+  flex-grow: 1;
   display: grid;
   gap: 3rem 2rem;
-  align-content: start; /* Align content to the start */
+  align-content: start;
 }
 
 .about-img {
   justify-self: center;
-  max-width: 80%; /* Adjust image size */
+  max-width: 80%;
 }
 
 /* Responsive Design for Medium Screens like Tablets */
@@ -77,9 +77,9 @@ About
   }
 }
 
-/* Variable for footer height - adjust as per your footer's actual height */
+/* Variable for footer height */
 :root {
-  --footer-height: 20px; /* Example height, adjust as needed */
+  --footer-height: 20px;
 }
 
 @media screen and (min-width: 360px) and (max-width: 676px) {
