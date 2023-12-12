@@ -64,11 +64,11 @@
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
 }
 
-
 /* Responsive Design for Mobile Devices (400px to 676px) */
 @media screen and (min-width: 360px) and (max-width: 676px) {
   .hero {
-  height: auto;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
