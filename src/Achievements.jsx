@@ -35,7 +35,7 @@ function Achievements() {
           <article className='achievement-item achievement-right'>
             <div className='achievement-badge'>
               <img
-                src='/public/imgs/Storage AWS CPC.png'
+                src='/imgs/Storage AWS CPC.png'
                 alt='Storage AWS CPC Badge'
               />
             </div>
@@ -56,7 +56,7 @@ function Achievements() {
           <article className='achievement-item achievement-left'>
             <div className='achievement-badge'>
               <img
-                src='/public/imgs/aws-certified-cloud-practitioner.png'
+                src='/imgs/aws-certified-cloud-practitioner.png'
                 alt='AWS Certified Cloud Practitioner Badge'
               />
             </div>
@@ -76,7 +76,7 @@ function Achievements() {
           <article className='achievement-item achievement-right'>
             <div className='achievement-badge'>
               <img
-                src='/public/imgs/GCC_badge_IT_Support.png'
+                src='/imgs/GCC_badge_IT_Support.png'
                 alt='GCC Badge IT Support'
               />
             </div>
