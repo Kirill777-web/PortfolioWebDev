@@ -108,6 +108,8 @@ p {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
+  margin-top: 30px;
+  width: 32%;
 }
 .btn:hover {
   color: var(--clr-primary-1);
@@ -140,6 +142,10 @@ p {
   .bg-grey {
     height: 100%;
     padding-bottom: 2rem;
+  }
+  .btn {
+    margin-top: 30px;
+    width: 60%;
   }
 }
 @media screen and (min-width: 992px) {
