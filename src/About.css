@@ -16,10 +16,6 @@ About
   margin-bottom: 2rem;
 }
 
-.about-title .underline {
-  margin-left: 20px;
-}
-
 .about-center {
   flex-grow: 1;
   display: grid;

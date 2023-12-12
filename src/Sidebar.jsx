@@ -33,7 +33,7 @@ function Sidebar({ isOpen, onClose }) {
             </li>
             <li>
               <Link to='/contact' onClick={onClose}>
-                Contact
+                Contact Me
               </Link>
             </li>
             <li>
