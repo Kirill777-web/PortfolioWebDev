@@ -9,17 +9,10 @@ function Achievements() {
           <div className='underline'></div>
         </div>
         <div className='section-center achievements-center'>
-          {/* <!-- Timeline Line --> */}
           <div className='timeline-line'></div>
 
-          {/* <!-- Achievement 1 --> */}
           <article className='achievement-item achievement-left'>
-            <div className='achievement-badge'>
-              {/* <img
-                src='/public/imgs/GCC_badge_IT_Support.png'
-                alt='Badge Description'
-              /> */}
-            </div>
+            <div className='achievement-badge'></div>
             <h4>In Progress, Expected 2024</h4>
             <p>WebDeveloper Bootcamp UNB</p>
             <p>
@@ -31,7 +24,6 @@ function Achievements() {
             </p>
           </article>
 
-          {/* <!-- Achievement 2 --> */}
           <article className='achievement-item achievement-right'>
             <div className='achievement-badge'>
               <img
@@ -52,7 +44,6 @@ function Achievements() {
             </p>
           </article>
 
-          {/* <!-- Achievement 3 --> */}
           <article className='achievement-item achievement-left'>
             <div className='achievement-badge'>
               <img
@@ -72,7 +63,6 @@ function Achievements() {
             </p>
           </article>
 
-          {/* <!-- Achievement 4 --> */}
           <article className='achievement-item achievement-right'>
             <div className='achievement-badge'>
               <img
