@@ -5,7 +5,7 @@ Services
 */
 .bg-grey {
   padding-top: 0px;
-  height: 72.2vh;
+  height: 92.2vh;
 }
 
 .services-center {
@@ -48,6 +48,7 @@ Services
   /* align center btn */
   margin-left: auto;
   margin-right: auto;
+  font-size: 12px;
 }
 /* Responsive Design for Mobile Devices (400px to 676px) */
 @media screen and (min-width: 360px) and (max-width: 676px) {

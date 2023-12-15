@@ -145,7 +145,7 @@ p {
   }
   .bg-grey {
     background: var(--clr-primary-10);
-    height: 70vh;
+    height: auto;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 676px) {

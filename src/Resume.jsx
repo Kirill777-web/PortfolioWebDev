@@ -5,7 +5,7 @@ function Resume() {
     <>
       <section className='section bg-grey'>
         <div className='section-title'>
-          <h2>services</h2>
+          <h2>resume</h2>
           <div className='underline'></div>
         </div>
 
