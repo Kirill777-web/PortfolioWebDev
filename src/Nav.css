@@ -34,6 +34,11 @@
   color: hsl(0deg 100% 50%); /* Or any color you want for the active link */
   box-shadow: 0 2px hsl(0deg 100% 50%); /* Optional: if you want to highlight with a shadow */
 }
+@media screen and (min-width: 360px) and (max-width: 676px) {
+  .navbar-fixed {
+    position: fixed;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .nav {

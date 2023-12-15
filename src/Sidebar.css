@@ -15,8 +15,8 @@ Sidebar
   place-items: center;
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  -webkit-transform: translateY(120%);
-  transform: translateY(120%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
 }
 /* toggle sidebar */
 .show-sidebar {
