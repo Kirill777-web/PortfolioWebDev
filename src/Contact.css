@@ -96,7 +96,7 @@ textarea.form-control {
 
 @media screen and (min-width: 360px) and (max-width: 676px) {
   .contact {
-    height: 100vh;
+    height: auto;
   }
 
   .btn {
